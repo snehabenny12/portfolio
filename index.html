@@ -1,0 +1,308 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sneha Benny | Portfolio</title>
+  <meta name="description" content="Sneha Benny - MCA Student, Python Developer, Data Analyst, and AI Enthusiast portfolio website." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-overlay"></div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#hero" class="brand">Sneha Benny</a>
+      <nav class="nav" id="main-nav">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#dashboards">Analytics Dashboard</a>
+        <a href="#github">GitHub</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-btn" id="menu-btn" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">MCA Student | Python Developer | Data Analyst</p>
+          <h1>Sneha Benny</h1>
+          <h2>I build future-ready solutions as a <span id="typing"></span></h2>
+          <p class="subtitle">
+            Passionate about turning real-world data into intelligent software products that improve decisions,
+            experiences, and outcomes.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="Sneha_cv (1).pdf" class="btn btn-secondary" download>Download Resume</a>
+            <a href="#contact" class="btn btn-ghost">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-card reveal delay-1">
+          <div class="stat-card glass">
+            <h3>Current Focus</h3>
+            <ul>
+              <li>Python + Django Applications</li>
+              <li>Healthcare Data Analytics</li>
+              <li>AI-powered Productivity Tools</li>
+            </ul>
+          </div>
+          <div class="pulse-ring"></div>
+        </div>
+      </div>
+    </section>
+<section id="about" class="section">
+  <div class="container about-grid">
+    
+    <div class="about-image reveal">
+      <div class="image-placeholder glass">
+        <img src="images\2.jpeg" alt="Sneha Benny" class="profile-img">
+      </div>
+    </div>
+
+    <div class="about-content reveal delay-1">
+      <h2>About Me</h2>
+      <p>
+        I am Sneha Benny, an MCA student and aspiring Python Developer, Data Analyst, and AI enthusiast.
+        I enjoy building reliable software that blends strong backend engineering with meaningful data insights.
+      </p>
+      <p>
+        My recent work includes hospital analytics dashboards, patient flow reporting, and queue management
+        systems that improve operational efficiency and user experience.
+      </p>
+      <p>
+        I am especially interested in using Python, analytics, and machine learning to build intelligent systems
+        that solve practical problems in healthcare and beyond.
+      </p>
+    </div>
+
+  </div>
+</section>
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Skills</h2>
+          <p>Technical capabilities across development, analytics, visualization, and AI.</p>
+        </div>
+        <div class="skills-grid bars">
+          <article class="skill-bar glass reveal"><div class="bar-top"><h3>Python</h3><span>92%</span></div><div class="bar-track"><div class="bar-fill" data-fill="92"></div></div></article>
+          <article class="skill-bar glass reveal delay-1"><div class="bar-top"><h3>Django</h3><span>84%</span></div><div class="bar-track"><div class="bar-fill" data-fill="84"></div></div></article>
+          <article class="skill-bar glass reveal delay-2"><div class="bar-top"><h3>Power BI</h3><span>88%</span></div><div class="bar-track"><div class="bar-fill" data-fill="88"></div></div></article>
+          <article class="skill-bar glass reveal"><div class="bar-top"><h3>SQL</h3><span>86%</span></div><div class="bar-track"><div class="bar-fill" data-fill="86"></div></div></article>
+          <article class="skill-bar glass reveal delay-1"><div class="bar-top"><h3>Pandas</h3><span>85%</span></div><div class="bar-track"><div class="bar-fill" data-fill="85"></div></div></article>
+          <article class="skill-bar glass reveal delay-2"><div class="bar-top"><h3>Excel</h3><span>90%</span></div><div class="bar-track"><div class="bar-fill" data-fill="90"></div></div></article>
+          <article class="skill-bar glass reveal"><div class="bar-top"><h3>Machine Learning</h3><span>78%</span></div><div class="bar-track"><div class="bar-fill" data-fill="78"></div></div></article>
+          <article class="skill-bar glass reveal delay-1"><div class="bar-top"><h3>HTML/CSS</h3><span>82%</span></div><div class="bar-track"><div class="bar-fill" data-fill="82"></div></div></article>
+          <article class="skill-bar glass reveal delay-2"><div class="bar-top"><h3>JavaScript</h3><span>76%</span></div><div class="bar-track"><div class="bar-fill" data-fill="76"></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Projects</h2>
+          <p>Professional, impact-focused projects built with modern tools and problem-solving mindset.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card glass reveal">
+            <h3>QueueZero - Smart Hospital Queue System</h3>
+            <p class="project-desc">
+              Token-driven queue platform for streamlining patient flow and improving outpatient experience.
+            </p>
+            <p class="tags"><span>Python</span><span>Django</span><span>QR</span><span>AI</span></p>
+            <ul>
+              <li>Token based queue system</li>
+              <li>QR code tokens</li>
+              <li>Real-time queue updates</li>
+              <li>Doctor dashboard</li>
+              <li>AI wait-time prediction</li>
+            </ul>
+            <div class="project-actions">
+              <a href="#" class="btn btn-secondary">View Project</a>
+              <a href="#" class="btn btn-ghost">View Code</a>
+            </div>
+          </article>
+
+          <article class="project-card glass reveal delay-1">
+            <h3>Hospital Patient Analytics Dashboard</h3>
+            <p class="project-desc">
+              Analytics dashboard designed for healthcare planning and operational visibility.
+            </p>
+            <p class="tags"><span>Power BI</span><span>Excel</span><span>CSV Cleaning</span></p>
+            <ul>
+              <li>Patient demographic analysis</li>
+              <li>Registration trends</li>
+              <li>Staff workload insights</li>
+            </ul>
+            <div class="project-actions">
+              <a href="#" class="btn btn-secondary">View Project</a>
+              <a href="#" class="btn btn-ghost">View Code</a>
+            </div>
+          </article>
+
+          <article class="project-card glass reveal delay-2">
+            <h3>AI Resume Analyzer (Python NLP)</h3>
+            <p class="project-desc">
+              NLP-based application that evaluates resume quality, skill relevance, and profile-job alignment.
+            </p>
+            <p class="tags"><span>Python</span><span>NLP</span><span>Machine Learning</span></p>
+            <ul>
+              <li>Resume parsing and keyword extraction</li>
+              <li>Skill match scoring engine</li>
+              <li>Actionable profile suggestions</li>
+            </ul>
+            <div class="project-actions">
+              <a href="#" class="btn btn-secondary">View Project</a>
+              <a href="#" class="btn btn-ghost">View Code</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="dashboards" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Data Analytics Dashboards</h2>
+          <p>Preview cards for hospital and patient analytics dashboards designed in Power BI.</p>
+        </div>
+        <div class="dashboard-grid">
+          <article class="dashboard-card glass reveal">
+            <div class="dashboard-thumb">Hospital KPI Dashboard Preview</div>
+            <h3>Hospital Patient Overview</h3>
+            <p>Admissions, department load, and demographic distribution snapshots.</p>
+            <a href="#" class="btn btn-secondary">View Dashboard</a>
+          </article>
+
+          <article class="dashboard-card glass reveal delay-1">
+            <div class="dashboard-thumb">Queue & Registration Trends Preview</div>
+            <h3>Registration and Queue Insights</h3>
+            <p>Trend analysis for peak timings, wait-time patterns, and staff utilization.</p>
+            <a href="#" class="btn btn-secondary">View Dashboard</a>
+          </article>
+
+          <article class="dashboard-card glass reveal delay-2">
+            <div class="dashboard-thumb">Workload Intelligence Preview</div>
+            <h3>Staff Workload Analytics</h3>
+            <p>Data-backed staffing insights for balanced operations and better patient support.</p>
+            <a href="#" class="btn btn-secondary">View Dashboard</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="github" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>GitHub Snapshot</h2>
+          <p>Developer activity metrics and technology footprint.</p>
+        </div>
+        <div class="github-grid">
+          <article class="metric-card glass reveal">
+            <h3>Repositories</h3>
+            <p class="metric" data-target="24">0</p>
+          </article>
+          <article class="metric-card glass reveal delay-1">
+            <h3>Contributions</h3>
+            <p class="metric" data-target="386">0</p>
+          </article>
+          <article class="metric-card glass reveal delay-2">
+            <h3>Top Languages</h3>
+            <p class="metric-text">Python, SQL, JavaScript</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="section">
+      <div class="container">
+        <div class="resume-card glass reveal">
+          <h2>Resume</h2>
+          <p>Download my latest resume to review academic background, projects, and technical skills.</p>
+          <a href="Sneha_cv (1).pdf" class="btn btn-primary" download>Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-card glass reveal">
+            <h2>Contact</h2>
+            <p>Open to internships, project collaborations, and entry-level opportunities in development, analytics, and AI.</p>
+            <ul class="contact-list">
+              <li><strong>Email:</strong> <a href="mailto:snehabenny1205@gmail.com">snehabenny1205@gmail.com</a></li>
+              <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/sneha-benny-0729b7387">linkedin.com/in/snehabenny</a></li>
+              <li><strong>GitHub:</strong> <a href="https://github.com/snehabenny12">github.com/snehabenny</a></li>
+            </ul>
+          </div>
+
+          <form class="contact-form glass reveal delay-1">
+            <h3>Send a Message</h3>
+            <label for="name">Name</label>
+            <input id="name" type="text" name="name" placeholder="Your name" required />
+
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" placeholder="your@email.com" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or opportunity" required></textarea>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">↑</button>
+
+  <button class="chatbot-badge" type="button" id="chatbot-toggle" aria-label="Ask about Sneha">
+    <span>💬</span>
+    <small>Ask about Sneha</small>
+  </button>
+
+  <section class="chatbot-panel glass" id="chatbot-panel" aria-label="Portfolio chatbot">
+    <div class="chatbot-head">
+      <h3>Sneha AI Assistant</h3>
+      <button type="button" id="chatbot-close" aria-label="Close chatbot">×</button>
+    </div>
+    <div class="chatbot-body" id="chatbot-body">
+      <div class="chat-msg bot">Hi, I can answer questions about Sneha's skills, projects, analytics work, and contact details.</div>
+    </div>
+    <form class="chatbot-form" id="chatbot-form">
+      <input
+        id="chatbot-input"
+        name="chatbot-input"
+        type="text"
+        placeholder="Ask: What projects has Sneha built?"
+        autocomplete="off"
+        required
+      />
+      <button type="submit" class="btn btn-primary">Send</button>
+    </form>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Sneha Benny</p>
+      <p>AI Powered Portfolio for recruiters, teams, and meaningful opportunities.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
